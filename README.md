@@ -1,2 +1,2 @@
-# Belajar-Dasar-Pemrograman-Web
-Belajar membuat website dari awal. Repo ini merupakan folder dari pelatihan BDD Kemenparekraf bekerjasama dengan dicoding.com
+# Basic-Learning-on-Web-Programming
+This repo containing my learning project from dicoding.com course on Basic Learning Web Programming.
