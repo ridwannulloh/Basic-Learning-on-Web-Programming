@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
 nav a {
     font-size: 18px;
     font-weight: 400;
@@ -12,6 +22,10 @@ nav a:hover {
 
 .profile header {
     text-align: center;
+}
+
+header {
+    display: inline;
 }
 
 .featured-images {
@@ -45,6 +59,23 @@ nav li {
 nav {
     background-color: #00a2c6;
     padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
 }
 
 nav a {
@@ -62,6 +93,7 @@ body {
 
 main {
     padding: 20px;
+    overflow: auto;
 }
 
 h2,
