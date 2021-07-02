@@ -23,7 +23,7 @@ header {
 .featured-images {
     width: 100%;
     max-height: 300px;
-    object-fit: contain;
+    object-fit: cover;
     object-position: left;
 }
 
@@ -122,6 +122,10 @@ aside {
 .info-lain {
     padding-left: 15px;
     padding-bottom: 15px;
+}
+
+.text-jus {
+    text-align: justify;
 }
 
 @media screen and (max-width: 1000px) {
