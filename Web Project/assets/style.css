@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
 
-@media screen and (max-width: 1000px) {
-
-    #content,
-    aside {
-        width: 100%;
-        padding: 0;
-    }
-}
 
 
 nav a {
@@ -17,7 +9,7 @@ nav a {
 }
 
 nav a:hover {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .profile header {
@@ -45,9 +37,9 @@ header {
 .jumbotron {
     font-size: 20px;
     padding: 60px;
-    background-color: #00c8eb;
+    background-color: #FEFECC;
     text-align: center;
-    color: white;
+    color: #02475E;
 }
 
 nav li {
@@ -57,7 +49,7 @@ nav li {
 }
 
 nav {
-    background-color: #00a2c6;
+    background-color: #02475E;
     padding: 5px;
     position: sticky;
     top: 0;
@@ -65,7 +57,7 @@ nav {
 
 #content {
     float: left;
-    width: 75%;
+    width: 70%;
 }
 
 * {
@@ -74,47 +66,69 @@ nav {
 
 aside {
     float: right;
-    width: 25%;
-    padding-left: 20px;
+    width: 27%;
+    padding-left: 0px;
 }
 
 nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-    color: white;
+    color: rgb(212, 209, 209);
 }
 
 body {
-    font-family: 'QuickSand', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 main {
-    padding: 20px;
+    padding: 18px;
     overflow: auto;
 }
 
 h2,
 h3 {
-    color: #00a2c6
+    color: #02475E;
+    font-style: bold;
 }
 
 footer {
     padding: 20px;
     color: white;
-    background-color: #00a2c6
+    background-color: #02475E
 }
 
 .profile img {
-    width: 200px;
+    width: 230px;
 }
 
 footer {
     padding: 20px;
     color: white;
-    background-color: #00a2c6;
+    background-color: #02475E;
     text-align: left;
     font-weight: bold;
+}
+
+aside {
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.info-lain {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
 }
